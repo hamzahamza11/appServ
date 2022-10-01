@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 80;
 
 // sendFile will go here
-app.get('/.well-known/acme-challenge/ykciBHwPIDmeyrH9YbLPEU5mTlPMB-Pr21b8wCtqhSQ', function(req, res) {
+app.get('/.well-known/acme-challenge/WRsJ_6AvzXDq1Ow29h1r2TUQ-UsVclZbeCrsjGEj0BQ', function(req, res) {
   res.sendFile(path.join(`${__dirname}/public`, '/index.html'));
 });
 
